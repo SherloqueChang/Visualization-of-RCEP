@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+<head>
+    <title>RCEP Economic Visualization</title>
+
+    <script src="js/d3.v3.js"></script>
+    <script src="js/canvasjs.min.js"></script>
+    <script src="js/jquery-3.5.1.js"></script>
+    <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap-multiselect.js"></script>
+    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="js/highcharts.js"></script>
+    <script src="js/jquery.range.js"></script>
+
+    <link href="css/style.css" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/w3.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+    <link type="text/css" rel="stylesheet" href="css/bootstrap-slider.css">
+    <link rel="stylesheet" href="css/bootstrap-multiselect.css" type="text/css"/>
+    <link href="css/jquery.range.css" type="text/css" rel="stylesheet" />
+
+</head>
+<body>
+
+    <div id="left_tool">
+        <a href="index.html" class="button" style="position: absolute;top:3px;left:5px;font-size: 28px">BACK</a>
+        <h3 style="position: absolute;top:40px;text-align: center">Countries Comparison</h3>
+    </div>
+
+    <div id="select">
+        <div></div>
+        <select id="example-getting-started" multiple="multiple">
+            <option value="0">Australia</option>
+            <option value="1">Brunei</option>
+            <option value="2">Myanmar</option>
+            <option value="3">Cambodia</option>
+            <option value="4" selected>China</option>
+            <option value="5">Indonesia</option>
+            <option value="6" selected>Japan</option>
+            <option value="7">Laos</option>
+            <option value="8">Malaysia</option>
+            <option value="9">New Zealand</option>
+            <option value="10">Philippines</option>
+            <option value="11">Singapore</option>
+            <option value="12" selected>South Korea</option>
+            <option value="13">Thailand</option>
+            <option value="14">Vietnam</option>
+        </select>
+    </div>
+
+    <div id="button">
+        <button type="button" class="btn btn-info" style="width: 248px;height: 35px" onclick="change_view()">Build Visualization</button>
+    </div>
+
+    <div id="flag"></div>
+
+    <div style="position: absolute;left: 254px;width: 610px;height: 35px;background: #ffffff">
+        <div style="position: absolute;width: 100px;height: 30px">
+            <select id="chart_style_1">
+                <option value="1">Line</option>
+                <option value="2">Bar</option>
+            </select>
+        </div>
+        <div style="position: absolute;left: 130px;width: 470px;height: 30px">
+            <select id="chart_style_2">
+                <option value="1">Gross Domestic Product billions of U.S. dollars</option>
+                <option value="2">GDP per capita current U.S. hundred dollars</option>
+                <option value="3">Exports of goods and services billion USD</option>
+                <option value="4">Imports of goods and services billion USD</option>
+                <option value="5">Exchange rate: local currency units per U.S. dollar</option>
+                <option value="6">Economic growth: the rate of change of real GDP</option>
+            </select>
+        </div>
+    </div>
+    <div id="line-chart"></div>
+
+    <div id="radar-chart-container">
+        <div class="radar-chart-graph">
+            <svg></svg>
+        </div>
+        <div class="radar-chart-legend"></div>
+        <ul class="nav nav-pills small" id="pills-tab" role="tablist">
+            <li class="nav-item active" role="presentation" id="radar-button-1">
+                <a class="nav-link active" id="pills-export" data-toggle="pill"  role="tab" aria-controls="pills-home" aria-selected="true">Exports</a>
+            </li>
+            <li class="nav-item" role="presentation" id="radar-button-2">
+                <a class="nav-link " id="pills-import" data-toggle="pill"  role="tab" aria-controls="pills-profile" aria-selected="false">Imports</a>
+            </li>
+        </ul>
+    </div>
+
+    <div id="drill-down"></div>
+    <button id="backButton">< Back</button>
+
+    <script src="js/main.js"></script>
+    <script src="js/source.js"></script>
+    <script>
+        draw_radar("exports");
+
+        $('#pills-export').on("click",function (){
+            d3.select('#radar-chart-container').style("background-image");
+            draw_radar("exports")
+        });
+
+        $('#pills-import').on("click",function (){
+            d3.select('#radar-chart-container').style("background-image")
+            draw_radar("imports")
+        });
+    </script>
+</body>
+</html>

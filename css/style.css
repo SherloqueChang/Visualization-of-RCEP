@@ -1,0 +1,205 @@
+html {
+    width: 100%;
+    height: 100%;
+    -ms-overflow-style: scrollbar;
+    overflow: visible;
+}
+body {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(230, 227, 227);
+    overflow: visible;
+    -ms-overflow-style: scrollbar;
+}
+
+#title {
+    position: absolute;
+    margin: 0px;
+    top: 0px;
+    bottom: auto;
+    left: 0px;
+    right: 0px;
+    min-width: 1531px;
+    z-index: 3;
+    padding: 6px;
+    background: rgb(240, 240, 240);
+    border: 1.5px solid rgb(187, 187, 187);
+    overflow: visible;
+    height: 55px;
+    display: block;
+    visibility: visible;
+}
+
+#title {
+    border-bottom: 1.5px solid black;
+    overflow: auto;
+    margin: -2px 2px 2px 0px;
+    height: 50px;
+}
+
+#title h1 {
+    float: left;
+    margin: -10px 0px -20px 400px;
+}
+
+#member {
+    float: left;
+    margin-top: 0px;
+    margin-left: 200px;
+}
+
+#left{
+    position: absolute;
+    right: auto;
+    top: 53px;
+    bottom: 48px;
+    z-index: 0;
+    background: rgb(250, 250, 250);
+    border: 1.5px solid rgb(147, 143, 143);
+    overflow: hidden;
+    width: 670px;
+    height: 560px;
+    display: block;
+    visibility: visible;
+}
+
+#right{
+    position: absolute;
+    margin: 0px;
+    left: 674px;
+    right: 0px;
+    top: 53px;
+    bottom: 48px;
+    width: 600px;
+    height: 510px;
+    z-index: 0;
+    display: block;
+    overflow: hidden;
+    background: rgb(250, 250, 250);
+    border: 1.5px solid rgb(147, 143, 143);
+}
+
+#tip {
+    position: absolute;
+    left: 674px;
+    top: 564px;
+    width: 600px;
+    height: 49px;
+    background: rgb(243, 243, 243);
+    border: 1.5px solid rgb(147, 143, 143);
+}
+
+#left_tool {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 250px;
+    height: 110px;
+    background: rgb(221, 247, 255);
+    border: 1.8px solid rgb(147, 143, 143);
+}
+
+#flag {
+    position: absolute;
+    left: 0px;
+    top: 182px;
+    width: 250px;
+    height: 430px;
+    background: rgb(221, 247, 255);
+    border: 1.8px solid rgb(147, 143, 143);
+}
+
+#select {
+    position: absolute;
+    left:0px;
+    top: 145px;
+    width: 250px;
+    height: 35px;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(147, 143, 143);
+}
+
+#button {
+    position: absolute;
+    left: 0px;
+    top: 110px;
+    width: 250px;
+    height: 35px;
+    background: rgb(255, 255, 255);
+    border: 1.8px solid rgb(147, 143, 143);
+}
+
+#line-chart {
+    position: absolute;
+    left: 254px;
+    top: 34px;
+    width: 610px;
+    height: 320px;
+    background: rgb(231, 247, 252);
+}
+
+#drill-down {
+    position: absolute;
+    left: 254px;
+    top: 353px;
+    width: 1023px;
+    height: 260px;
+    border: 1.8px solid rgb(147, 143, 143);
+}
+
+.legend {
+    fill: #333333;
+}
+
+.tooltip {
+    fill: #333333;
+}
+rect.bordered {
+    stroke: #E6E6E6;
+    stroke-width:2px;
+}
+
+text.mono {
+    font-size: 9pt;
+    fill: #aaa;
+}
+
+#radar-chart-container{
+    position: absolute;
+    width: 410px;
+    height: 350px;
+    left: 866px;
+    top: 0px;
+    font-weight: normal;
+    border: 1.8px solid rgb(147, 143, 143);
+    /*background-image: linear-gradient(to bottom right, #ffc3a0, #ffafbd);*/
+}
+.radar-chart-legend{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+#radar-button-1{
+    position: absolute;
+    left: 5px;
+    top: 310px;
+}
+
+#radar-button-2{
+    position: absolute;
+    left: 335px;
+    top: 310px;
+}
+
+#backButton {
+    border-radius: 4px;
+    padding: 8px;
+    border: none;
+    font-size: 16px;
+    background-color: #2eacd1;
+    color: white;
+    position: absolute;
+    top: 354px;
+    left: 1210px;
+    cursor: pointer;
+}

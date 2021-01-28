@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+<head>
+    <title>RCEP Economic Visualization</title>
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/d3.js"></script>
+    <script src="js/echarts.js"></script>
+    <script src="js/world.js"></script>
+
+    <link href="css/style.css" type="text/css" rel="stylesheet" />
+    <link rel=stylesheet href="https://s3-us-west-2.amazonaws.com/colors-css/2.2.0/colors.min.css">
+    <link rel="stylesheet" href="css/w3.css">
+</head>
+<body>
+    <div id="header">
+        <div id="title"><h1>RCEP Economic Visualization</h1>
+            <div id="member">&ensp;&emsp;&emsp;Group Members<br>蒋雪莹 杨志朗 张泽辰 常文辉</div>
+        </div>
+    </div>
+
+    <div id="left"></div>
+    <span style="position:absolute;top:555px;left:15px">Tension:</span>
+    <input type="range" id="ran" min="0" max="1" step="0.01" value="0.5" style="position:absolute;top:580px;left:10px;"/>
+
+    <div id="right" class="chart-container">
+        <script>
+            var chart_container = echarts.init(
+                document.getElementById('right'), 'white', {renderer: 'canvas'});
+            var option_container = {
+                "series": [
+                    {
+                        "type": "map",
+                        "name": "GDP (billion dollar)",
+                        "label": {
+                            "show": false,
+                            "position": "top",
+                            "margin": 8
+                        },
+                        "itemStyle":{
+                            "borderWidth": "0",
+                            "opacity": 0.8
+                        },
+                        "mapType": "world",
+                        "data": [
+                            {
+                                "name": "Australia", "value": 1208.85,
+                                'itemStyle':{'color':"#00a5e3"}
+                            },
+                            {
+                                "name": "Brunei","value": 11.4,
+                                'itemStyle':{'color':"#8dd7bf"}
+                            },
+                            {
+                                "name": "Myanmar","value": 67.18,
+                                'itemStyle':{'color':"#8dc6bf"}
+                            },
+                            {
+                                "name": "Cambodia","value": 20.02,
+                                'itemStyle':{'color':"#c65d7b"}
+                            },
+                            {
+                                "name": "China","value": 11233.28,
+                                'itemStyle':{'color':"#ff284b"}
+                            },
+                            {
+                                "name": "Indonesia","value": 931.88,
+                                'itemStyle':{'color':"#ffbf65"}
+                            },
+                            {
+                                "name": "Japan","value": 4922.54,
+                                'itemStyle':{'color':"#fc6238"}
+                            },
+                            {
+                                "name": "Lao PDR","value": 15.81,
+                                'itemStyle':{'color':"#cff800"}
+                            },
+                            {
+                                "name": "Malaysia","value": 301.26,
+                                'itemStyle':{'color':"#4dd091"}
+                            }
+                            ,                    {
+                                "name": "New Zealand","value": 188.22,
+                                'itemStyle':{'color':"#00cdac"}
+                            },
+                            {
+                                "name": "Philippines","value": 318.63,
+                                'itemStyle':{'color':"#00e1df"}
+                            },
+                            {
+                                "name": "Singapore","value": 318.65,
+                                'itemStyle':{'color':"#eae45f"}
+                            },
+                            {
+                                "name": "Korea","value": 1500.11,
+                                'itemStyle':{'color':"#524582"}
+                            },
+                            {
+                                "name": "Thailand","value": 413.43,
+                                'itemStyle':{'color':"#0065a2"}
+                            },
+                            {
+                                "name": "Vietnam","value": 205.28,
+                                'itemStyle':{'color':"#ff5c77"}
+                            },
+                        ],
+                        "roam": true,
+                        "zoom": 2.7,
+                        "showLegendSymbol": false,
+                        "center": [130, 5]
+                    }
+                ],
+
+                "tooltip": {
+                    "show": true,
+                    "trigger": "item",
+                    "triggerOn": "mousemove|click",
+                    "axisPointer": {
+                        "type": "line"
+                    },
+                    "textStyle": {
+                        "fontSize": 15
+                    },
+                    "borderWidth": 0
+                }
+            };
+            chart_container.setOption(option_container);
+        </script>
+    </div>
+
+    <div id="tip">
+        <h4>&ensp;#&ensp;Zoom & Drag for New View</h4>
+        <a href="view.html" class="button" style="position: absolute;top:10px;left:510px;font-size: 25px">NEXT</a>
+    </div>
+
+    <script src="js/graph.js"></script>
+</body>
+</html>
