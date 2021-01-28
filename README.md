@@ -4,4 +4,4 @@
 
 Focusing on the Regional Comprehensive Economic Partnership (RCEP), the project focuses on data visualization to reflect the trade relationship and the comparison of economic power between countries.		
 
-Project Link: 
+Project Link: http://192.168.0.111:8000/index.html
