@@ -4,4 +4,4 @@
 
 Focusing on the Regional Comprehensive Economic Partnership (RCEP), this project utilizes data visualization to reflect the trade relationship and the comparison of economic power between countries.		
 
-[Project Link](http://SherloqueChang.github.io/Visualization-of-RCEP)
+[Project Link](https://sherloquechang.github.io/Visualization-of-RCEP/)
