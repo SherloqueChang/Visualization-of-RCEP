@@ -1,0 +1,190 @@
+Section,Section ID,Trade Value,Year
+"""Animal Products""",1,65915331.0,2010
+"""Vegetable Products""",2,48843136.0,2010
+"""Animal and Vegetable Bi-Products""",3,5887666.0,2010
+"""Foodstuffs""",4,237895749.0,2010
+"""Mineral Products""",5,579943839.0,2010
+"""Chemical Products""",6,158255660.0,2010
+"""Plastics and Rubbers""",7,128030940.0,2010
+"""Animal Hides""",8,8476324.999999998,2010
+"""Wood Products""",9,3803744.0,2010
+"""Paper Goods""",10,43128424.0,2010
+"""Textiles""",11,265128942.0,2010
+"""Footwear and Headwear""",12,11804683.0,2010
+"""Stone And Glass""",13,70683146.0,2010
+"""Precious Metals""",14,19133736.0,2010
+"""Metals""",15,305121349.0,2010
+"""Machines""",16,566127660.0,2010
+"""Transportation""",17,522673973.0,2010
+"""Instruments""",18,22723146.0,2010
+"""Weapons""",19,941706.0,2010
+"""Miscellaneous""",20,41842351.0,2010
+"""Arts and Antiques""",21,209096.0,2010
+"""Animal Products""",1,159550378.0,2011
+"""Vegetable Products""",2,56791249.0,2011
+"""Animal and Vegetable Bi-Products""",3,8305448.0,2011
+"""Foodstuffs""",4,304895505.0,2011
+"""Mineral Products""",5,857532277.0,2011
+"""Chemical Products""",6,233283331.0,2011
+"""Plastics and Rubbers""",7,153713000.0,2011
+"""Animal Hides""",8,2504097.0,2011
+"""Wood Products""",9,6326225.0,2011
+"""Paper Goods""",10,46858123.0,2011
+"""Textiles""",11,132511255.0,2011
+"""Footwear and Headwear""",12,6784704.0,2011
+"""Stone And Glass""",13,85543134.0,2011
+"""Precious Metals""",14,42498546.0,2011
+"""Metals""",15,363109310.0,2011
+"""Machines""",16,746829102.0,2011
+"""Transportation""",17,791952418.0,2011
+"""Instruments""",18,25088274.0,2011
+"""Weapons""",19,76416.0,2011
+"""Miscellaneous""",20,74231864.0,2011
+"""Arts and Antiques""",21,53186.0,2011
+"""Animal Products""",1,242466908.0,2012
+"""Vegetable Products""",2,29561487.0,2012
+"""Animal and Vegetable Bi-Products""",3,9198468.0,2012
+"""Foodstuffs""",4,373225540.0,2012
+"""Mineral Products""",5,1050184230.0,2012
+"""Chemical Products""",6,281212971.0,2012
+"""Plastics and Rubbers""",7,185943984.0,2012
+"""Animal Hides""",8,6546206.0,2012
+"""Wood Products""",9,7702807.0,2012
+"""Paper Goods""",10,47135202.0,2012
+"""Textiles""",11,118254075.0,2012
+"""Footwear and Headwear""",12,23248092.0,2012
+"""Stone And Glass""",13,104697644.0,2012
+"""Precious Metals""",14,35971436.0,2012
+"""Metals""",15,551909295.0,2012
+"""Machines""",16,1164008173.0,2012
+"""Transportation""",17,1069326122.0,2012
+"""Instruments""",18,43407738.0,2012
+"""Weapons""",19,8670.0,2012
+"""Miscellaneous""",20,95611917.0,2012
+"""Arts and Antiques""",21,787424.0,2012
+"""Animal Products""",1,291644245.0,2013
+"""Vegetable Products""",2,43321463.0,2013
+"""Animal and Vegetable Bi-Products""",3,9151197.0,2013
+"""Foodstuffs""",4,356841991.0,2013
+"""Mineral Products""",5,1127406109.0,2013
+"""Chemical Products""",6,303863798.0,2013
+"""Plastics and Rubbers""",7,211110843.0,2013
+"""Animal Hides""",8,4589788.0,2013
+"""Wood Products""",9,6317021.0,2013
+"""Paper Goods""",10,65728895.0,2013
+"""Textiles""",11,135318210.0,2013
+"""Footwear and Headwear""",12,13310313.0,2013
+"""Stone And Glass""",13,117497288.0,2013
+"""Precious Metals""",14,80863177.0,2013
+"""Metals""",15,592948779.0,2013
+"""Machines""",16,1850622250.0,2013
+"""Transportation""",17,1130535851.0,2013
+"""Instruments""",18,50558431.0,2013
+"""Weapons""",19,12833.0,2013
+"""Miscellaneous""",20,68240865.0,2013
+"""Arts and Antiques""",21,950673.0,2013
+"""Animal Products""",1,318351743.53164935,2014
+"""Vegetable Products""",2,78414864.3146414,2014
+"""Animal and Vegetable Bi-Products""",3,13474078.0357763,2014
+"""Foodstuffs""",4,400431307.9139937,2014
+"""Mineral Products""",5,1150506603.554552,2014
+"""Chemical Products""",6,398301181.532728,2014
+"""Plastics and Rubbers""",7,256749523.38658655,2014
+"""Animal Hides""",8,18752709.4032068,2014
+"""Wood Products""",9,7195701.039392199,2014
+"""Paper Goods""",10,84507000.7767227,2014
+"""Textiles""",11,231770282.7844426,2014
+"""Footwear and Headwear""",12,21402470.3429554,2014
+"""Stone And Glass""",13,137580529.2193495,2014
+"""Precious Metals""",14,98947980.69570729,2014
+"""Metals""",15,786966176.072331,2014
+"""Machines""",16,2114343780.2380729,2014
+"""Transportation""",17,1085225706.2285762,2014
+"""Instruments""",18,52767748.2227134,2014
+"""Weapons""",19,273199.0,2014
+"""Miscellaneous""",20,67356976.1251114,2014
+"""Arts and Antiques""",21,22926.44714,2014
+"""Animal Products""",1,283410603.711985,2015
+"""Vegetable Products""",2,131018423.6301182,2015
+"""Animal and Vegetable Bi-Products""",3,12660431.599368699,2015
+"""Foodstuffs""",4,435844252.30214226,2015
+"""Mineral Products""",5,936466084.3933612,2015
+"""Chemical Products""",6,409264976.36610264,2015
+"""Plastics and Rubbers""",7,237665003.05320686,2015
+"""Animal Hides""",8,8012373.7474554,2015
+"""Wood Products""",9,9270614.932867898,2015
+"""Paper Goods""",10,87728041.53233579,2015
+"""Textiles""",11,182971963.7268419,2015
+"""Footwear and Headwear""",12,15796506.274588898,2015
+"""Stone And Glass""",13,128898154.27214311,2015
+"""Precious Metals""",14,187914826.897545,2015
+"""Metals""",15,789509703.62425,2015
+"""Machines""",16,1381442813.8778524,2015
+"""Transportation""",17,1130669058.8366828,2015
+"""Instruments""",18,56382339.40678739,2015
+"""Weapons""",19,1443433.0077472,2015
+"""Miscellaneous""",20,59048888.4543421,2015
+"""Arts and Antiques""",21,292543.3608129,2015
+"""Animal Products""",1,321428057.46815675,2016
+"""Vegetable Products""",2,143916057.18823048,2016
+"""Animal and Vegetable Bi-Products""",3,13530266.008170601,2016
+"""Foodstuffs""",4,524747024.455021,2016
+"""Mineral Products""",5,763282581.3322184,2016
+"""Chemical Products""",6,393488678.14273906,2016
+"""Plastics and Rubbers""",7,222240451.3557097,2016
+"""Animal Hides""",8,11072379.8380567,2016
+"""Wood Products""",9,11996390.0877802,2016
+"""Paper Goods""",10,101328056.82020593,2016
+"""Textiles""",11,205146885.6976546,2016
+"""Footwear and Headwear""",12,10352596.699803801,2016
+"""Stone And Glass""",13,122330697.9639129,2016
+"""Precious Metals""",14,145659702.29858688,2016
+"""Metals""",15,767898500.0351038,2016
+"""Machines""",16,1279450577.6118417,2016
+"""Transportation""",17,1010803557.0742092,2016
+"""Instruments""",18,73328195.87910157,2016
+"""Weapons""",19,1473847.45587,2016
+"""Miscellaneous""",20,61024975.5096583,2016
+"""Arts and Antiques""",21,98056.5461023,2016
+"""Animal Products""",1,6901736.0,2017
+"""Vegetable Products""",2,11781741.0,2017
+"""Animal and Vegetable Bi-Products""",3,656412.0,2017
+"""Foodstuffs""",4,38349024.0,2017
+"""Mineral Products""",5,20320987.0,2017
+"""Chemical Products""",6,80062851.0,2017
+"""Plastics and Rubbers""",7,49880819.0,2017
+"""Animal Hides""",8,1802727.0,2017
+"""Wood Products""",9,1805014.0,2017
+"""Paper Goods""",10,32539688.0,2017
+"""Textiles""",11,53526906.0,2017
+"""Footwear and Headwear""",12,3539419.0,2017
+"""Stone And Glass""",13,26888246.0,2017
+"""Precious Metals""",14,21607746.0,2017
+"""Metals""",15,341799018.0,2017
+"""Machines""",16,928509302.0,2017
+"""Transportation""",17,245455847.0,2017
+"""Instruments""",18,37570547.0,2017
+"""Weapons""",19,475164.0,2017
+"""Miscellaneous""",20,33406503.0,2017
+"""Arts and Antiques""",21,10414.0,2017
+"""Animal Products""",1,327047788.0,2018
+"""Vegetable Products""",2,75537782.0,2018
+"""Animal and Vegetable Bi-Products""",3,11952208.0,2018
+"""Foodstuffs""",4,526188256.0,2018
+"""Mineral Products""",5,1003891287.0,2018
+"""Chemical Products""",6,489649268.0,2018
+"""Plastics and Rubbers""",7,290048458.0,2018
+"""Animal Hides""",8,4657949.0,2018
+"""Wood Products""",9,9407747.0,2018
+"""Paper Goods""",10,118751118.0,2018
+"""Textiles""",11,158069211.0,2018
+"""Footwear and Headwear""",12,11232245.0,2018
+"""Stone And Glass""",13,131784113.0,2018
+"""Precious Metals""",14,86803883.0,2018
+"""Metals""",15,594731549.0,2018
+"""Machines""",16,1510876284.0,2018
+"""Transportation""",17,646197481.0,2018
+"""Instruments""",18,109542580.0,2018
+"""Weapons""",19,74330.0,2018
+"""Miscellaneous""",20,59080846.0,2018
+"""Arts and Antiques""",21,121784.00000000001,2018
