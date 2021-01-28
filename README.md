@@ -1,4 +1,4 @@
-<h1 align=center>RCEP各国贸易关系与经济对比可视化项目报告</h1>
+<h1 align=center>RCEP各国贸易关系与经济对比可视化项目</h1>
 
 <div align=right>小组成员：<br>蒋雪莹 杨志朗 张泽辰 常文辉
 </div>
